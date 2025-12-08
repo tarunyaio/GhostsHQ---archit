@@ -1,0 +1,342 @@
+body {
+    background-color: #050505;
+    background-image: url('../assets/photos/news/cod-2024-reveal-backdrop-03-desktop.jpg');
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #e0e0e0;
+    font-family: 'Hitmarker', sans-serif;
+}
+
+.article-header {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    min-height: 400px;
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+
+.header-image-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.header-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.header-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(5, 5, 5, 1) 100%);
+}
+
+.header-text {
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+}
+
+.article-title {
+    font-family: 'Hitmarker', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 16px;
+    letter-spacing: 0.05em;
+    line-height: 1.1;
+}
+
+.article-subtitle {
+    font-size: 18px;
+    color: #b0b0b0;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.article-body {
+    max-width: 840px !important;
+}
+
+.guide-section {
+    margin-bottom: 60px;
+}
+
+.guide-section h2 {
+    font-size: 32px;
+    color: #ffffff;
+    border-bottom: 2px solid #58d348;
+    padding-bottom: 12px;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.guide-section h3 {
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 32px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.guide-section p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #c0c0c0;
+    margin-bottom: 16px;
+}
+
+.intel-card {
+    background-color: #111214;
+    border: 1px solid #2a2a2a;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 40px 0;
+}
+
+.intel-header h3 {
+    margin-top: 0;
+    color: #58d348;
+    border-bottom: 1px solid #2a2a2a;
+    padding-bottom: 16px;
+    margin-bottom: 24px;
+}
+
+.intel-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.intel-image-full {
+    width: 300px;
+    height: auto;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.intel-text-content {
+    flex-grow: 1;
+}
+
+.intel-text-content h4 {
+    color: #58d348;
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+
+.intel-text-content p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 12px;
+    color: #ccc;
+}
+
+.intel-text-content strong {
+    color: #fff;
+    font-weight: 700;
+}
+
+.tips-list {
+    padding-left: 20px;
+}
+
+.tips-list li {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #c0c0c0;
+    margin-bottom: 12px;
+    padding-left: 10px;
+}
+
+.tips-list strong {
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .article-title {
+        font-size: 32px;
+    }
+
+    .intel-content {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+}
+
+/* Footer Styles */
+.site-footer {
+    background-color: #1a1a1a;
+    padding: 60px 0;
+    margin-top: 80px;
+    border-top: 1px solid #2a2a2a;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.store-message h3 {
+    font-family: 'Hitmarker', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.store-message p {
+    font-family: 'Hitmarker', sans-serif;
+    color: #ccc;
+    font-size: 15px;
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+
+.disclaimer-note {
+    font-size: 11px !important;
+    color: #666 !important;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+.footer-links-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 25px 0;
+    border-top: 1px solid #2a2a2a;
+    border-bottom: 1px solid #2a2a2a;
+    width: 100%;
+}
+
+.footer-links-row a {
+    font-family: 'Hitmarker', sans-serif;
+    color: #999;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition: color 0.2s ease;
+}
+
+.footer-links-row a:hover {
+    color: #ffffff;
+}
+
+.copyright {
+    font-family: 'Hitmarker', sans-serif;
+    color: #555;
+    font-size: 11px;
+    margin-top: 10px;
+}
+
+.scroll-top-btn {
+    position: fixed;
+    bottom: 28px;
+    right: 28px;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: #2a2a2a;
+    border: 1px solid #3a3a3a;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.25s ease;
+    z-index: 900;
+}
+
+.scroll-top-btn img {
+    width: 20px;
+    height: 20px;
+}
+
+.scroll-top-btn.show {
+    display: flex;
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .site-container {
+        padding: 0 24px;
+    }
+
+    .article-header {
+        height: 50vh;
+        min-height: 300px;
+    }
+
+    .article-title {
+        font-size: 32px;
+    }
+
+    .header-text {
+        bottom: 40px;
+    }
+
+    .article-subtitle {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+
+    .intel-content {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .intel-image-full {
+        width: 100%;
+        max-width: 400px;
+        align-self: center;
+    }
+
+    .footer-links-row {
+        gap: 15px;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .article-title {
+        font-size: 28px;
+    }
+
+    .guide-section h2 {
+        font-size: 26px;
+    }
+
+    .scroll-top-btn {
+        bottom: 20px;
+        right: 20px;
+    }
+}

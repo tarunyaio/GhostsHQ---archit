@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Call Of Duty</title>
-  <link rel="stylesheet" href="hero.css">
+  <link rel="stylesheet" href="../css/index.css">
+  <link rel="stylesheet" href="../css/home.css">
 </head>
+
 <body>
 
   <section id="hero">
     <video autoplay muted loop id="hero-video" playsinline>
-      <source src="hub-hero-chimera-BO7-10-8-25.mp4" type="video/mp4">
+      <source src="../assets/hub-hero-chimera-BO7-10-8-25.mp4" type="video/mp4">
     </video>
     <div class="bottom-gradient"></div>
 
@@ -29,10 +32,14 @@
       </section>
 
       <section id="nav-left">
-        <img src="cod-logo.svg" id="logo" alt="Logo">
+        <a href="index.html"><img src="../assets/logos/cod-logo.svg" id="logo" alt="Logo"></a>
         <p>Games</p>
-        <p>News</p>
-        <p>Store</p>
+        <a href="news.html">
+          <p>News</p>
+        </a>
+        <a href="store.html">
+          <p>Store</p>
+        </a>
         <p>ESports</p>
         <p>Support</p>
       </section>
@@ -41,11 +48,6 @@
         <button class="nav-button nav-ghost">Login</button>
         <button class="nav-button nav-black">Get Black Ops 7</button>
       </section>
-    </div>
-
-    <div class="hero-content">
-      <h1></h1>
-      <p></p>
     </div>
   </section>
 
@@ -68,28 +70,36 @@
       <h2 class="get-game-title">GET THE GAME</h2>
       <div class="games-grid">
         <a href="#" class="game-card">
-          <img src="https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/store/games/bo7/Chimera_COD-HP_GTG.webp" alt="Black Ops 7" class="game-image">
+          <img
+            src="https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/store/games/bo7/Chimera_COD-HP_GTG.webp"
+            alt="Black Ops 7" class="game-image">
           <h3>
             <span class="game-title-small">CALL OF DUTY</span><br>
             <span class="game-title-large">BLACK OPS 7</span>
           </h3>
         </a>
         <a href="#" class="game-card">
-          <img src="https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/store/games/listings/BO6_PLPCard_Hero.webp" alt="Black Ops 6" class="game-image">
+          <img
+            src="https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/store/games/listings/BO6_PLPCard_Hero.webp"
+            alt="Black Ops 6" class="game-image">
           <h3>
             <span class="game-title-small">CALL OF DUTY</span><br>
             <span class="game-title-large">BLACK OPS 6</span>
           </h3>
         </a>
         <a href="#" class="game-card">
-          <img src="https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/store/games/wz/overview/bo6-season-3/COD-HP_WZ_Get-The-Game.webp" alt="Warzone" class="game-image">
+          <img
+            src="https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/store/games/wz/overview/bo6-season-3/COD-HP_WZ_Get-The-Game.webp"
+            alt="Warzone" class="game-image">
           <h3>
             <span class="game-title-small">CALL OF DUTY</span><br>
             <span class="game-title-large">WARZONE</span>
           </h3>
         </a>
         <a href="#" class="game-card">
-          <img src="https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/store/games/listings/GamesPLP_CODM.webp" alt="Call of Duty Mobile" class="game-image">
+          <img
+            src="https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/store/games/listings/GamesPLP_CODM.webp"
+            alt="Call of Duty Mobile" class="game-image">
           <h3>
             <span class="game-title-small">CALL OF DUTY</span><br>
             <span class="game-title-large">MOBILE</span>
@@ -137,5 +147,7 @@
     </div>
   </footer>
 
+  <script src="../js/index.js"></script>
 </body>
+
 </html>
