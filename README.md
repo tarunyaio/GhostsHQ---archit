@@ -1,2 +1,2 @@
 contri - @tarunyaio
-and The wrold
+and The world
